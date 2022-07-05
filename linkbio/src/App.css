@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerGlobal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #EDF2FF ;
+}

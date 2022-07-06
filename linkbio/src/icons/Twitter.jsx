@@ -8,6 +8,7 @@ export function Twitter(props) {
             width={w}
             height={h}
             viewBox="0 0 128 128"
+            className="icons"
         >
         <path
             fill="#76ecff"

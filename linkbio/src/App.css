@@ -1,11 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* o padrão é content-box, o border-box
+    serve para, ao exemplo, o padding ir para dentro e não expandir meu 
+    elemento alem do que eu coloquei como limite */
+    background: #ffffe8;
+    font-family: 'Roboto', sans-serif;
 }
 
-.containerGlobal {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    background: #EDF2FF ;
-}

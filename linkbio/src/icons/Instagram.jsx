@@ -8,6 +8,7 @@ export function Instagram(props) {
       width={w}
       height={h}
       viewBox="0 0 64 64"
+      className="icons"
     >
       <rect
         width="50"

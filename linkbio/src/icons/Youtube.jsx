@@ -8,6 +8,7 @@ export function Youtube(props) {
       width={w}
       height={h}
       viewBox="0 0 48 48"
+      className="icons"
     >
       <path
         fill="#ef4823"

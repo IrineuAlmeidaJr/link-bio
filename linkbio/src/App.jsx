@@ -1,10 +1,12 @@
 import { LinkBio } from "./pages/LinkBio";
-import './App.css'
+import './global.css'
 
 function App() {
 
   return (
-      <LinkBio/>        
+    <div>
+      <LinkBio/> 
+    </div>         
   )
 }
 

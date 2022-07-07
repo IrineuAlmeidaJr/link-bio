@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* o padrão é content-box, o border-box
+    serve para, ao exemplo, o padding ir para dentro e não expandir meu 
+    elemento alem do que eu coloquei como limite */    
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    /* variáveis */
+    --bg-color: #EDF2FF;
+    --text-color: #00082F;
+    --primary-color: #4263EB;
+    --primary-color-dark: #364FC7;
+}
+
+body.dark{
+    --bg-color: #00082F;
+    --text-color: #FFFFFF;
+}
+
+
+body.pink {
+    --bg-color: #FFF0F6;
+    --text-color: #00082F;
+    --primary-color: #D6336C;
+    --primary-color-dark: #A61E4D;
+}
+
+body.dark-pink {
+    --bg-color: #1F000B;
+    --text-color: #FFFFFF;
+    --primary-color: #D6336C;
+    --primary-color-dark: #A61E4D;
+}
+
+body.yellow {
+    --bg-color: #ffffe8;
+    --text-color: #00082F;
+    --primary-color: #C7C944;
+    --primary-color-dark: #E1E283;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    --primary-color: #4263EB;
+    --primary-color-dark: #364FC7;
+}
+
+
+
+

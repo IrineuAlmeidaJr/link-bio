@@ -35,11 +35,11 @@ body.dark-pink {
     --primary-color-dark: #A61E4D;
 }
 
-body.yellow {
-    --bg-color: #ffffe8;
-    --text-color: #00082F;
-    --primary-color: #C7C944;
-    --primary-color-dark: #E1E283;
+body.dark-blue {
+    --bg-color: #0A1128;
+    --text-color: #FFF;
+    --primary-color: #1282A2;
+    --primary-color-dark: #034078;
 }
 
 body {
